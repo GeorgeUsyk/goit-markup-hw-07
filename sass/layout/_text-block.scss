@@ -1,15 +1,15 @@
-.features-list {
+.features__list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.features-list__item {
+.features__item {
     flex-basis: calc((100% - 90px)/4);
 }
 
-.features-list__icon {
+.features__icon {
     display: block;
     justify-self: center;
     align-items: center;
@@ -21,7 +21,7 @@
     border-radius: 4px;
 }
 
-.features-list__image {
+.features__image {
     border: none;
     fill: #212121;
 }
@@ -37,7 +37,7 @@
     margin-bottom: 50px;
 }
 
-.features-list__subtitle {
+.features__subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -46,7 +46,7 @@
     margin-bottom: 10px;
 }
 
-.features-list__text {
+.features__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

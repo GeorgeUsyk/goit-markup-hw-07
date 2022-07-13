@@ -5,24 +5,22 @@
     margin: 0 auto;
 }
 
-.pictures-list {
+.pictures__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.pictures-list__boxes {
+.pictures__boxes {
     display: flex;
     flex-basis: calc((100% - 60px)/3);
     position: relative;
 }
 
-.pictures-list__names {
+.pictures__names {
     position: absolute;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter;
     bottom: 0;
     padding-top: 27px;
     padding-bottom: 27px;
@@ -34,4 +32,3 @@
     background-color: rgba(47, 48, 58, 0.8);
     color: #FFFFFF;
 }
-

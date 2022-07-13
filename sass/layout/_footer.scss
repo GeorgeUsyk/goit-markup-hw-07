@@ -87,9 +87,7 @@
 }
 
 .footer-socials__logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter;
     transition: fill var(--speed) var(--duration);
     &:not(:last-child) {
         margin-right: 10px;
